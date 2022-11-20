@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sodifficult:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>sodifficult</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mistake-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="sodifficult:war exploded" />
+    </root>
+  </artifact>
+</component>
