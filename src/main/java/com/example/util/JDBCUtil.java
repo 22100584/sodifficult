@@ -8,19 +8,19 @@ public class JDBCUtil {
 		Connection con = null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://walab.handong.edu:3306/p2_22100419", "p2_22100419", "raequ7Ahth");
+			con = DriverManager.getConnection("jdbc:mysql://walab.handong.edu:3306/p2_22100584", "p2_22100584", "egeJ4oon3T");
 		} catch (Exception e) {
 			System.out.println(e);
 		}
 		return con;
 	}
-}
+
 	
-//	public static void main(String ars[]) {
-//		Connection conn = getConnection();
-//		if(conn != null)
-//			System.out.println("DB 연결됨!");
-//		else
-//			System.out.println("DB 연결중 오류 !");
-//	}
-//}
+	public static void main(String ars[]) {
+		Connection conn = getConnection();
+		if(conn != null)
+			System.out.println("DB 연결됨!");
+		else
+			System.out.println("DB 연결중 오류 !");
+	}
+}
